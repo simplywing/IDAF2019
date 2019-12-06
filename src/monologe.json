@@ -1,0 +1,22 @@
+{
+    "monologe": [
+        {
+            "id": 1,
+            "description": "Monolog_1",
+            "phrases": [
+                {"phrase": "Dies ist ein kurzer Satz.", "duration": 3000},
+                {"phrase": "Dies ist ein längerer Satz.", "duration": 4000},
+                {"phrase": "Dies ist ein ganz ganz langer Satz.", "duration": 5000}
+            ]
+        },
+        {
+            "id": 2,
+            "description": "Monolog_2",
+            "phrases": [
+                {"phrase": "Dies ist ein kurzer Satz.", "duration": 3000},
+                {"phrase": "Dies ist ein längerer Satz.", "duration": 4000},
+                {"phrase": "Dies ist ein ganz ganz langer Satz.", "duration": 5000}
+            ]
+        }
+    ]
+}
