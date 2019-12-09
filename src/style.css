@@ -4,4 +4,11 @@ body {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    font-family: 'PT Serif', serif;
+  }
+
+
+  .mainTitle{
+    color: white;
+    text-align: center;
   }
