@@ -6,6 +6,7 @@ let speechBubble, questionBubble, questionBar, goBack;
 let activeMonologId = 0;
 let talking = false;
 let talktoggler = false;
+let talkerIntervalId = false;
 
 let imgArr = [];
 
@@ -127,6 +128,7 @@ function hideSpeechBubble(){
 function displayPhrase(aid, phraseCounter){
   if(phraseCounter >= mjson.monologe[activeMonologId].answers[aid].answer.length){
     hideSpeechBubble();
+    window.clearInterval(talkerIntervalId);
     talking = false;
     return;
   }
@@ -149,9 +151,15 @@ function playQuestion(elem){
   let aid = elem.dataset.qid;
   speechBubble.style.display = "block";
   displayPhrase(aid, phraseCounter);
+  talkerIntervalId = window.setInterval(function(){talker();}, 250);
 }
 
-function talker(frame1, frame2, posx, posy, height){
+function talker(){
+  let frame1 = imgArr[scenes[activeScene].characterImages[0]];
+  let frame2 = imgArr[scenes[activeScene].characterImages[1]];
+  let posx = scenes[activeScene].characterPos.x;
+  let posy = scenes[activeScene].characterPos.y;
+  let height = scenes[activeScene].characterPos.h;
   if(talktoggler){
     talktoggler = false;
     renderImageSpecific(frame1, posx, posy, height);
@@ -291,23 +299,4 @@ function main(){
       showScene();
     }
   })
-
-  /*mainCanvas.addEventListener("click", function(event){
-    let x = event.pageX - mainCanvas.offsetLeft;
-    let y = event.pageY - mainCanvas.offsetTop;
-
-    if((x > 100 && x < 300) && (y > 100 && y < 300)){
-      //console.log("Virtual Button was clicked");
-      //renderImageFullSize(imgArr[6], true);
-    }
-
-  });*/
 }
-
-/*
-https://animejs.com/
-
-https://www.mediaevent.de/tutorial/svg-animation-css-javascript.html
-
-https://www.mediaevent.de/css/animation-play-state.html
-*/
