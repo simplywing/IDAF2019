@@ -110,6 +110,158 @@
                 }
 
             ]
+        },
+        {
+            "id": 2,
+            "description": "Vulkangeist",
+            "welcome" : [
+                {"phrase": "Ich bin Tambora, der Geist des bekannten Vulkanes. Ich habe euch viele Fakten zum Ausbruch aus dem Jahre 1815 und Daten zum Wetter auf der ganzen Welt. Vielleicht weiss ich ganz bestimmte Tatsachen aus der Schweiz, wer weiss… Frag mich doch einfach!", "duration": 8000}
+            ],
+            "questions": [
+                {"qid": 0, "question": "Die Eruption im Jahre 1815 ging in die Geschichtsbücher ein, was war an dieser so besonders?"},
+                {"qid": 1, "question": "Hast du kein schlechtes Gewissen für die Opfer, die du gefordert hast?"},
+                {"qid": 2, "question": "Hatte deine Eruption Auswirkungen auf das Weltklima?"},
+                {"qid": 3, "question": "Bei deiner Vorstellung hast du etwas über die Schweiz erwähnt… Was war da speziell?"},
+                {"qid": 4, "question": "Du hattest eine unglaubliche Wucht bei deiner Eruption, kannst du uns einen Verlgeich geben damit wir uns dies besser vorstellen können?"}                
+            ],
+            "answers": [
+                {
+                    "aid": 0, "answer": [
+                        {"phrase": "Oh! Wow! Ich habe es in eure Bücher geschafft! Im Jahre 1815 war es eine ganz besondere Eruption.", "duration": 8000},
+                        {"phrase": "Ich war unglaubliche 4300 Meter hoch, einer der höchsten Gipfel des indonesischen Archipels. Nach dem grossen Knall, also heute, bin ich gerade noch 2850 Meter hoch.", "duration": 8000},
+                        {"phrase": "Ich schleuderte ungeheuerliche 140 Milliarden Tonnen Gestein weg! Eine riesen Leistung, da bin ich heute noch sehr stolz darauf!", "duration": 8000}
+                    ]
+                },
+                {
+                    "aid": 1, "answer": [
+                        {"phrase": "Keines Falls! Es liegt in meiner Natur zu Explodieren! Soweit mir bekannt ist, waren es ja gar nicht so viele.", "duration": 8000},
+                        {"phrase": "Die kleinen Dörfer, die an meinem Fusse hausten, löschte ich gleich komplett aus. Da waren mal 10.000 weg!", "duration": 8000},
+                        {"phrase": "Die weiteren Tote waren ja nicht unbedingte meine Schuld, diese armen Lebewesen konnten einfach nicht ohne Sommer leben…", "duration": 8000},
+                        {"phrase": "Deshalb verliessen uns weitere 100.000 und da war der Hunger schuld und nicht ich! Andere 80.000 fielen wegen der Krankheit, auch nicht wegen mir.", "duration": 8000}
+                    ]
+                },
+                {
+                    "aid": 2, "answer": [
+                        {"phrase": "Leider ja, aber das habe ich nicht mit Absicht gemacht… Durch meine Eruption wurden so viele Staubteilchen in die Atmosphäre geschleudert, dass prompt kein Sonnenlicht mehr durchkam.", "duration": 8000},
+                        {"phrase": "Auf der ganzen Welt sanken die Durchschnittstemperaturen bis zu 3.5 Grad Celsius und in gewissen Bereichen gab es Jahre ohne Sommer.", "duration": 8000},
+                        {"phrase": "Daraus folgten Ernteeinbussen, Preissteigerung, Überschwemmungen und anschliessend die Hungersnot, die mehreren das Leben kostete.", "duration": 8000}
+                    ]
+                },
+                {
+                    "aid": 3, "answer": [
+                        {"phrase": "Gute Frage… Durch meine Eruption sanken die Temperaturen, die Schweiz traf es da am schlimmsten. Die Durchschnittstemperaturen sanken um 3.5 Grad Celsius.", "duration": 8000},
+                        {"phrase": "Durch diesen Temperatur Sturz, fiel sogar einmal Schnee im Juli! Als die zwei Jahre ohne Sommer endlich überstanden waren, war das Übel noch nicht vorbei.", "duration": 8000},
+                        {"phrase": "Es fiel so viel Schnee, am Anfang kamen diese in Lawinen runter und zerstörten ganze Dörfer. Die weisse Pracht fing dann an zu schmelzen und alle Flüsse und Seen waren überfordert.", "duration": 8000},
+                        {"phrase": "Das ganze Land stand unter Wasser und puff wieder eine Ernte futsch! Und als Krönung des ganzen Naturschauspiels kam der Hagel und puff wieder eine Ernte futsch!", "duration": 8000}
+                    ]
+                },
+                {
+                    "aid": 4, "answer": [
+                        {"phrase": "hihi. Ja. Ich schleuderte meine Massen 40 Kilometer in die Luft, diese Wucht entspricht ungefähr 50.000 Hiroshima-Atombomben! Cool oder?", "duration": 8000}
+                    ]
+                }
+
+            ]
+        },
+        {
+            "id": 3,
+            "description": "Geist von Tambora",
+            "welcome" : [
+                {"phrase": "Hallo! Ich bin Java Doro Api Toi. Ich habe auf der Insel Sumbawa gewohnt, auf der auch der boshafte Vulkan Tambora steht. Er beendete mein Leben innerhalb weniger Minuten!", "duration": 8000}
+            ],
+            "questions": [
+                {"qid": 0, "question": "Was ist mit Ihrem Dorf passiert?"},
+                {"qid": 1, "question": "Welchen Anblick bot die Insel nach der Eruption?"},
+                {"qid": 2, "question": "Können Sie das Szenario des Ausbruches uns etwas näher beschreiben?"},
+                {"qid": 3, "question": "Bist du wirklich ein Geist?"},
+                {"qid": 4, "question": "Wie heisst du nochmals?"}                
+            ],
+            "answers": [
+                {
+                    "aid": 0, "answer": [
+                        {"phrase": "Ich war gerade in der Küche und habe das Essen vorbereitet, da hörte ich einen riesen Knall.", "duration": 8000},
+                        {"phrase": "Ich versuchte mich unter einem Tisch zu verstecken, jedoch war es kein übliches Erdbeben.", "duration": 8000},
+                        {"phrase": "Es kam eine riesen Walze aus pyroklastischem Staub auf uns zu und vergrub unser ganzes Dorf innert weniger Minuten. ", "duration": 8000}
+                    ]
+                },
+                {
+                    "aid": 1, "answer": [
+                        {"phrase": "Es war ein Alptraum, es macht mich heute noch ganz traurig, wenn ich daran denke!", "duration": 8000},
+                        {"phrase": "Die Dörfer waren zerstört und nicht mehr bewohnbar. Schlamm und Asche bedeckte in einer 60 Zentimeter mächtigen Schicht den grössten Teil der Insel.", "duration": 8000},
+                        {"phrase": "Auch wenn die Häuser noch ganz wären, dank diesem Schlamm waren unsere Ernten dahin und wir wären schlussendlich am Hunger gestorben…", "duration": 8000}
+                    ]
+                },
+                {
+                    "aid": 2, "answer": [
+                        {"phrase": "Alles fing am 5. April 1815 an. Aus dem Vulkan flossen heisse Lavaströme den Berg hinuntern.", "duration": 8000},
+                        {"phrase": "Am 10. April brachen gegen 7 Uhr abends drei getrennte Feuersäulen nahe dem Tambora-Gipfel hervor, alle dem Anschein nach innerhalb des Kraterrandes; und nachdem jede von ihnen zu einer großen Höhen aufgestiegen war, vereinigten sich ihre oberen Enden in der Luft zu einer wild verschlungenen, unruhigen Spirale.", "duration": 13000},
+                        {"phrase": "Nach kurzer Zeit glich der ganze Berg einer Masse aus flüssigem Feuer, das sich in alle Richtungen ausbreitete. Das war auch das Todesurteil unseres Volkes!", "duration": 8000}
+                    ]
+                },
+                {
+                    "aid": 3, "answer": [
+                        {"phrase": "Ja klar, oder schon einmal einen lebenden Geist gesehen? In deinen Träumen bin ich immer mit meiner besten Freundin dem HIppi-Gspänstli unterwegs.", "duration": 3000}
+                    ]
+                },
+                {
+                    "aid": 4, "answer": [
+                        {"phrase": "Java Doro Api Toi, ich weiss... ein bisschen lange...", "duration": 6000}
+                    ]
+                }
+
+            ]
+        },
+        {
+            "id": 4,
+            "description": "Back to the Future",
+            "welcome" : [
+                {"phrase": "Guten Tag ihr unwissenden Geschöpfe der Gegenwart! Ich bin Dr. Emmett Brown. Ich bin ein bisschen verrückt, jedoch kann ich eure Fragen über der Hungersnot in der Zukunft beantworten.", "duration": 8000}
+            ],
+            "questions": [
+                {"qid": 0, "question": "Da Sie Herr Doktor ja wohl allwissend sind, können sie mir erklären welche Arten von Hunger es überhaupt gibt?"},
+                {"qid": 1, "question": "Wo ist man am meisten vom Hunger betroffen?"},
+                {"qid": 2, "question": "Warum gibt es überhaupt Hungersnöte?"},
+                {"qid": 3, "question": "Was sind die Folgen von Hunger?"},
+                {"qid": 4, "question": "Hast du das Plutonium dieses Mal nicht vergessen?"}                
+            ],
+            "answers": [
+                {
+                    "aid": 0, "answer": [
+                        {"phrase": "Sehr wohl bin ich über alles unterrichtet! Es gibt grundlegend drei Arten von Hunger. Der verborgene Hunger, dieser bezeichnet ein unbewusster Mangel von Nährstoffen.", "duration": 8000},
+                        {"phrase": "Diese Form ist meist nicht direkt sichtbar, doch aus Einschränkung wichtigen Nährstoffen wie Eisen, Jod, Zink oder Vitamin A entstehen schreckliche Krankheiten.", "duration": 8000},
+                        {"phrase": "Dann gibt es noch den chronischen Hunger, davon sind Menschen in Krisengebiet betroffen und ihnen fehlt es über längere Zeit an genügend Nahrung.", "duration": 8000},
+                        {"phrase": "Als dritte und letztes Art gibt es noch den akuten Hunger, auch als Hungersnot bezeichnet. Es ist die extremste Form von Hunger und trifft nach Kriegen oder Naturkatastrophen ein. Die Menschen habe keine Nahrung und über längere Zeit sterben sie am Hungertot.", "duration": 10000}
+                    ]
+                },
+                {
+                    "aid": 1, "answer": [
+                        {"phrase": "Lassen sie mich schnell überlegen, ich kann Ihnen dazu nur ungenaue Informationen bieten…", "duration": 8000},
+                        {"phrase": "Ungefähr dreiviertel aller Hungernden leben auf dem Land. Sie arbeiten als klein Bauern oder als Tagelöhner.", "duration": 8000},
+                        {"phrase": "Laut dem Welthungerindex wird nur die zentralafrikanische Repubilk als gravierend eingestuft, jedoch bin ich überzeugt, dass es noch weit mehr Hungenderende auf unserem Planeten gibt.", "duration": 8000}
+                    ]
+                },
+                {
+                    "aid": 2, "answer": [
+                        {"phrase": "Ihre Fragen sind sehr interessant. Je nach Region gibt es ganz unterschiedliche Gründe.", "duration": 8000},
+                        {"phrase": "Die Gründe reichen von Kriegen, Krisen und Katastrophen, schlechter Regierungsführung, ungerechter Landverteilung, Klimaveränderungen, Finanzkrisen, gesellschaftlicher Benachteiligung bis hin zu Welthandelsproblemen. Ich hoffe ich konnte Ihnen damit weiterhelfen.", "duration": 13000}
+                    ]
+                },
+                {
+                    "aid": 3, "answer": [
+                        {"phrase": "Die Folgen sind unschön. Ich wünsche dies keiner Person! Bei mangelnder Ernährung leidet der Körper unter den fehlenden Nährstoffen. ", "duration": 8000},
+                        {"phrase": "Die körperliche und geistige Entwicklung des Menschen ist eingeschränkt, er kann sich schlechter konzentrieren und erbringt schlechtere Leistungen.", "duration": 8000},
+                        {"phrase": "Ausserdem ist ein mangelernährter Mensch auch anfälliger für chronische Krankheiten. Beides führt tendenziell zu einer reduzierten körperlichen und geistigen Leistungsfähigkeit.", "duration": 8000},
+                        {"phrase": "Ausserdem ist ein mangelernährter Mensch auch anfälliger für chronische Krankheiten. Beides führt tendenziell zu einer reduzierten körperlichen und geistigen Leistungsfähigkeit.", "duration": 8000},
+                        {"phrase": "Dadurch sinken die Verdienstchancen, das Armutsrisiko steigt, der Kreislauf setzt sich fort. Letztendlich verenden viele Hungernden an einer Krankheit, die sie sich wegen ihrem geschwächtem Immunsystem zugezogen haben.", "duration": 10000}
+                    ]
+                },
+                {
+                    "aid": 4, "answer": [
+                        {"phrase": "Natürlich nicht! Dieses mal kamen mir auch keine Lybier dazwischen!", "duration": 6000}
+                    ]
+                }
+
+            ]
         }
     ]
 }

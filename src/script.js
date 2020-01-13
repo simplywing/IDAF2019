@@ -129,6 +129,7 @@ function displayPhrase(aid, phraseCounter){
   if(phraseCounter >= mjson.monologe[activeMonologId].answers[aid].answer.length){
     hideSpeechBubble();
     window.clearInterval(talkerIntervalId);
+    goBack.style.display = "block";
     talking = false;
     return;
   }
@@ -149,6 +150,7 @@ function playQuestion(elem){
   talking = true;
   phraseCounter = 0;
   let aid = elem.dataset.qid;
+  goBack.style.display = "none";
   speechBubble.style.display = "block";
   displayPhrase(aid, phraseCounter);
   talkerIntervalId = window.setInterval(function(){talker();}, 250);
@@ -173,14 +175,19 @@ function talker(){
 }
 
 function linkGoBack(){
+  if(talking) return;
   if(activeScene === 1){
     welcomeOverlay.style.display = "block";
     doorBar.style.display = "none";
+    goAbout.style.display = "none";
+    aboutOverlay.style.display = "none";
     activeScene = 0;
     showScene();
   }
   else{
     doorBar.style.display = "block";
+    goAbout.style.display = "block";
+    aboutOverlay.style.display = "none";
     activeScene = 1;
     showScene();
   }
@@ -189,8 +196,17 @@ function linkGoBack(){
 function linkGoDoors(){
   welcomeOverlay.style.display = "none";
   doorBar.style.display = "block";
+  goAbout.style.display = "block";
   activeScene = 1;
   showScene();
+}
+
+function linkGoAbout(){
+  aboutOverlay.style.display = "block";
+}
+
+function linkCloseAbout(){
+  aboutOverlay.style.display = "none";
 }
 
 function openDoor(elem){
@@ -198,6 +214,8 @@ function openDoor(elem){
   console.log(sce);
   activeScene = sce;
   doorBar.style.display = "none";
+  goAbout.style.display = "none";
+  aboutOverlay.style.display = "none";
   showScene();
 }
 
@@ -232,8 +250,10 @@ function main(){
   questionBubble = document.getElementById("questionBubble");
   questionBar = document.getElementById("questionBar");
   goBack = document.getElementById("goBack");
+  goAbout = document.getElementById("goAbout");
   doorBar = document.getElementById("doorBar");
   welcomeOverlay = document.getElementById("welcomeOverlay");
+  aboutOverlay = document.getElementById("aboutOverlay");
   mainCanvas = document.getElementById("mainCanvas");
   mainCanvas.width  = window.innerWidth;
   mainCanvas.height = window.innerHeight;

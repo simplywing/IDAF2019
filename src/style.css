@@ -1,6 +1,12 @@
+@font-face {
+  font-family: Avenir;
+  src: url("vendor/fonts/AvenirLTStd-Medium.otf") format("opentype");
+}
+
 body {
-    font-family: 'PT Serif', serif;
-    font-size: 2.5rem;
+    /*font-family: 'PT Serif', serif;*/
+    font-family: Avenir, sans-serif;
+    font-size: 2.3rem;
     margin: 0;
     padding: 0;
     border: 0;
@@ -35,6 +41,10 @@ body {
   padding-left: 7%;
   padding-right: 7%;
   color: black;
+  background-color: rgb(184, 184, 184);
+  border-radius: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 #speechBubble{
@@ -55,7 +65,7 @@ body {
 
 #questionBubble{
   position: absolute;
-  top: 70%;
+  top: 66%;
   left: 10%;
   width: 40%;
   height: auto;
@@ -76,7 +86,7 @@ body {
 
 }
 #questionBar > a{
-  background-color: rgba(56, 56, 56, 0.3);
+  background-color: rgb(184, 184, 184);
   border-radius: 10px;
   padding: 10px;
   color: black;
@@ -86,11 +96,39 @@ body {
   position: absolute;
   top: 10px;
   left: 10px;
-  color: black;  
+  color: black;
+  background-color: rgb(184, 184, 184);
+  border-radius: 10px;
+  padding: 10px;
 }
 
+#goAbout{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: black;
+  background-color: rgb(184, 184, 184);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+#aboutOverlay{
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  width: 600px;
+  margin-left: -300px;
+  height: auto;
+  background-color: black;
+  border-radius: 10px;
+  border: 1px solid black;
+  color: white;
+  padding: 10px;
+
+}
 
 .mainTitle{
   color: white;
   text-align: center;
 }
+

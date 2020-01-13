@@ -41,11 +41,36 @@
         <a href="#" data-qid="4" onmouseover="showQuestion(this)" onmouseout="hideQuestion()" onclick="playQuestion(this)">Frage 5</a>
     </div>
     <div id="welcomeOverlay">
-        Herzlich Willkommen auf unserer Website!<br><br>
-Du hast gerade das Ergebnis eines Schulprojektes einer Gruppe Schüler, welche die Technische Berufsmatura in Luzern besuchen, vor dir.<br><br>
-Zum Thema “Das Jahr ohne Sommer und Brot” sollte ein beliebiges Lehrmittel gestaltet werden. Damit auch der Spass beim Lernen nicht zu kurz kommt, nehmen wir dich auf spielerische Weise mit in die Vergangenheit.<br><br>
-Jede Tür führt dich zu einer unterschiedlichen Welt oder einem Schauplatz aus der Zeit im Jahre xxx, wo Personen auf dich warten und dir von ihrem Leben in schwierigen Zeiten erzählen. Stelle ihnen Fragen und sie werden dir Auskunft geben.<br><br>
-Viel Spass! <a href="#" onclick="linkGoDoors()">Hier</a> geht's los!
+        Herzlich Willkommen auf unserer Website!
+        <br><br>
+        Du hast gerade das Ergebnis eines Schulprojektes einer Gruppe Schüler, welche die Technische Berufsmatura in Luzern besuchen, vor dir.
+        <br><br>
+        Zum Thema “Das Jahr ohne Sommer und Brot” sollte ein beliebiges Lehrmittel gestaltet werden. Damit auch der Spass beim Lernen nicht zu kurz kommt, nehmen wir dich auf spielerische Weise mit in die Vergangenheit.
+        <br><br>
+        Jede Tür führt dich zu einer unterschiedlichen Welt oder einem Schauplatz aus der Zeit zwischen 1815 - 1820, wo Personen auf dich warten und dir von ihrem Leben in schwierigen Zeiten erzählen. Stelle ihnen Fragen und sie werden dir Auskunft geben.
+        <br><br>
+        Viel Spass! <a href="#" onclick="linkGoDoors()">Hier</a> geht's los!
+    </div>
+    <div id="aboutOverlay" style="display: none;">
+        <b>Das Jahr ohne Sommer</b>
+        <br><br>
+        IDAF 2020 <br>
+        Geschichte und Deutsch
+        <br><br>
+        Programmierung: Joël Ammann <br>
+        Text: Cedrik Brunner und David Steiner <br>
+        Illustration: Rahel Emmenegger <br>
+        <br><br>
+        Klasse BMBT 18A
+        <br><br>
+        Quellen: <br>
+        <ul>
+            <li><a href="https://www.welthungerhilfe.de/hunger/" target="_blank">https://www.welthungerhilfe.de/hunger/</a></li>
+            <li><a href="https://www.ingenieur.de/technik/fachbereiche/umwelt/vulkan-tambora-sorgte-200-jahren-fuer-klimakatastrophe-neuzeit" target="_blank">https://www.ingenieur.de/technik/fachbereiche/<br>umwelt/vulkan-tambora-sorgte-200-jahren-fuer-klimakatastrophe-neuzeit/</a></li>
+            <li><a href="media/pdf/IDAF_Hungerjahre_BMBT_BMVT_19_20_ohen_Bräcker.pdf" target="_blank">Erhaltenes Dossier von Herrn Huber</a></li>
+        </ul>
+        <br>
+        Danke für deinen Besuch! <a href="#" onclick="linkCloseAbout()">Schliessen!</a>
     </div>
     <div id="doorBar" style="display: none;">
         <a href="#" data-sce="6" onclick="openDoor(this)">Tür 1</a>
@@ -55,6 +80,7 @@ Viel Spass! <a href="#" onclick="linkGoDoors()">Hier</a> geht's los!
         <a href="#" data-sce="5" onclick="openDoor(this)">Tür 5</a>
     </div>
     <a href="#" id="goBack" style="display: none;" onclick="linkGoBack();">Zurück</a>
+    <a href="#" id="goAbout" style="display: none;" onclick="linkGoAbout();">About</a>
     <!--Blurred Overlay
         https://codepen.io/chipChocolate/pen/LEZMeY
     -->
