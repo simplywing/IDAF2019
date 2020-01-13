@@ -1,21 +1,114 @@
 {
-    "monologe": [
+    "monologe" : [
         {
-            "id": 1,
-            "description": "Monolog_1",
-            "phrases": [
-                {"phrase": "Dies ist ein kurzer Satz.", "duration": 3000},
-                {"phrase": "Dies ist ein längerer Satz.", "duration": 4000},
-                {"phrase": "Dies ist ein ganz ganz langer Satz.", "duration": 5000}
+            "id": 0,
+            "description": "Schweizer Bauer",
+            "welcome" : [
+                {"phrase": "Hallo! Mein Name ist Walter Odermatt. Ich bin 35 Jahre alt und aufgewachsen in einer glarner Bauernfamilie. Meine Frau Gertrud und ich haben acht Kinder und einen Hof.", "duration": 8000}
+            ],
+            "questions": [
+                {"qid": 0, "question": "Welchen Beruf haben Sie erlernt und konnten Sie mit diesem ihre Familie ernähren?"},
+                {"qid": 1, "question": "Hatten Sie in ihrem Leben jemals etwas versucht ihrer Familie einen besseren Lebensstandard zu bieten oder haben Sie ihr Leben lang dasselbe Handwerk ausgeübt?"},
+                {"qid": 2, "question": "Haben sich die folgenden Hungerjahre auf irgendeine Art und Weise angekündigt?"},
+                {"qid": 3, "question": "Wie empfanden sie den sozialen Zusammenhalt in diesen schweren Zeiten?"},
+                {"qid": 4, "question": "Was taten die armen Familien in den Bauernständen um sich zu ernähren?"}                
+            ],
+            "answers": [
+                {
+                    "aid": 0, "answer": [
+                        {"phrase": "In meinen jungen Jahren wurde ich von meinem Vater als Tagelöhner eingesetzt.", "duration": 6000},
+                        {"phrase": "Ich fand eine Knechtschaft beim Schlossbauer Weibel und dieser brachte mir die Handwerkskunst bei.", "duration": 8000},
+                        {"phrase": "Das Geld reichte nicht wirklich weit, jedoch reichte es aus, meine Familie und mich zu ernähren, sowie den Hof zu unterhalten.", "duration": 8000}
+                    ]
+                },
+                {
+                    "aid": 1, "answer": [
+                        {"phrase": "Ja, eines Tages versuchte ich es mit einem Webkeller.", "duration": 6000},
+                        {"phrase": "Ich sparte genug Geld aus meiner Tätigkeit als Schlosser und richtetet bei mir zu Hause einen Webkeller ein.", "duration": 8000},
+                        {"phrase": "Nach und nach lehrte ich meine Brüder an zu weben.", "duration": 5000},
+                        {"phrase": "Leider stellte sich später heraus, dass dieses Unterfangen unserer Familie mehr geschadet hat als es genützt hätte.", "duration": 8000}
+                    ]
+                },
+                {
+                    "aid": 2, "answer": [
+                        {"phrase": "Nein! Wir konnten uns keines Wegs darauf vorbereiten! Sonst hätte ich ja nicht in diesem blödsinnigen Webkeller investiert! ", "duration": 8000},
+                        {"phrase": "Die Ernten gingen den Bach hinunter und die Preise für Brot stiegen abscheulich in die Höhe…", "duration": 8000},
+                        {"phrase": "Die einzigen die da profitierten waren doch die Bäcker und Müller.", "duration": 6000},
+                        {"phrase": "Wir aus dem Baumwollgewerbe waren aufgeschmissen und dem Hunger ausgeliefert!", "duration": 8000}
+                    ]
+                },
+                {
+                    "aid": 3, "answer": [
+                        {"phrase": "Furchtbar! Es war traurig anzusehen, so etwas wünscht man keinem.", "duration": 6000},
+                        {"phrase": "Jeder Tag war ein Kampf ums Überleben.", "duration": 4000},
+                        {"phrase": "Stellen Sie sich vor, sogar meine Kartoffeln und all mein Gemüse wurden aus meinem Garten geklaut. Aus meinen netten Nachbaren wurden elende Langfinger!", "duration": 8000}
+                    ]
+                },
+                {
+                    "aid": 4, "answer": [
+                        {"phrase": "Ich habe da abscheuliches beobachtet… Ich habe mit eigenen Augen beobachtet, wie ein Vater mit seinen Kindern von einem verreckten Pferd einen ganzen Sack voll Fleisch abgehackt hat.", "duration": 10000},
+                        {"phrase": "Dieses scheussliche Pferd lag schon mehrere Tage da im Dreck und wurde schon von diversen Tieren als Nahrungsquelle gebraucht.", "duration": 8000},
+                        {"phrase": "Ich selbst konnte nicht genug Nahrung für die ganze Familie aufbringen. Ihre Körper wurden schwächer und schliesslich hat der liebe Gott mehrere meiner Kinder zu sich genommen.", "duration": 8000},
+                        {"phrase": "Erst im Frühling konnten wir uns wieder von Wurzeln und Kräutern ernähren.", "duration": 6000}
+                    ]
+                }
+
             ]
         },
         {
-            "id": 2,
-            "description": "Monolog_2",
-            "phrases": [
-                {"phrase": "Dies ist ein kurzer Satz.", "duration": 3000},
-                {"phrase": "Dies ist ein längerer Satz.", "duration": 4000},
-                {"phrase": "Dies ist ein ganz ganz langer Satz.", "duration": 5000}
+            "id": 1,
+            "description": "Wohlhabender Schweizer",
+            "welcome" : [
+                {"phrase": "Guten Tag! Mein Name ist Ernst Friedrich Wildhaber. Ich bin 50 Jahre. Angestellt als Pfarrer in St.Gallen, gelernt in Philosophie und Naturkunde bereise ich die ganze Schweiz.", "duration": 8000}
+            ],
+            "questions": [
+                {"qid": 0, "question": "Sie bereisten verschiedene Ortschaften während den Hungerjahren in der Schweiz. Welches war Ihrer Meinung nach am schlimmsten betroffen?"},
+                {"qid": 1, "question": "Welcher Eindruck hat Sie am meisten geprägt?"},
+                {"qid": 2, "question": "Hatten diese Hungersnöte auch Auswirkungen auf die Politik bzw. auf den Staat? Hat der Staat zu dieser Zeit etwas gegen die Probleme der Bevölkerung unternommen?"},
+                {"qid": 3, "question": "Hat die obere Gesellschaft etwas unternommen, um den hungernden Menschen zu helfen?"},
+                {"qid": 4, "question": "Es lässt vermuten, dass mit dem Hunger und der Schwäche auch diverse Krankheiten entstanden sind. Können Sie uns dazu etwas sagen?"}                
+            ],
+            "answers": [
+                {
+                    "aid": 0, "answer": [
+                        {"phrase": "Da kann ich ihnen keine konkrete Ortschaft nennen, da eher mehrere Kantone davon betroffen waren.", "duration": 8000},
+                        {"phrase": "Soweit ich mich erinnern kann, waren es die Kantone St.Gallen, Glarus, Appenzell und Thurgau.", "duration": 8000},
+                        {"phrase": "Es traf am härtesten die Kantone, die sich auf Gewerbe und Handel konzentrierten. Im Kanton Appenzell starben 7000 mehr als geboren wurden.", "duration": 8000},
+                        {"phrase": "Zum Vergleich starben im Kanton Luzern, der überwiegen vom Getreidehandel und der Viehzucht lebte, keine Menschen.", "duration": 8000}
+                    ]
+                },
+                {
+                    "aid": 1, "answer": [
+                        {"phrase": "Noch heute schaudert mich der Gedanke daran, als ich in die Stuben der armen Menschen in Glarus trat. Was mir da vor Augen kam, werde ich nie vergessen.", "duration": 8000},
+                        {"phrase": "Es waren ungefähr acht Menschen, gekleidet in schwarzen, zerrissenen Fetzen. Der Schmutz und Dunst waren zum Erschrecken. Die Weiber halb nackt.", "duration": 8000},
+                        {"phrase": "In einer Wiege lag ein neugeborenes Kind, von einem Leichnam als Leichnam geboren! Als ich nach diesem Schock nach draussen flüchtete, grauste es mich erneut.", "duration": 8000},
+                        {"phrase": "Ich sah haufenweise Menschen wie sie auf den Strassen die Kotgefässe nach Essen durchwühlten und Kartoffelhülsen, faulende Rüben usw. mit Begierde verschlingten.", "duration": 8000}
+                    ]
+                },
+                {
+                    "aid": 2, "answer": [
+                        {"phrase": "Ja sehr wohl! Die tonangebende Bürgerklasse setzte sich armenpolitische Reformen ein. Der neue Begriff «Pauperismus» wurde Gegenstand in diversen heftigen Debatten.", "duration": 8000},
+                        {"phrase": "Der «Pauper» war eine Person, die sich durch Arbeit kein ausreichendes Einkommen mehr verschaffen konnte.", "duration": 8000},
+                        {"phrase": "Die Teuerung, die durch schlechte Ernten und darauf Folgende Angst und Kaufsucht sowie Handelseinschränkungen entstand, trieb viele Familien in die Armut.", "duration": 8000},
+                        {"phrase": "Dar Staat reagierte mit sogenannten Zwangs- und Arbeitsanstalten. In diesen Anstalten wurden die Bettler im Austausch für Ihre Arbeit mit sauberen Kleidern und Suppe, sowie wenig Lohn ausgestattet.", "duration": 8000}
+                    ]
+                },
+                {
+                    "aid": 3, "answer": [
+                        {"phrase": "Sehr wohl haben Sie das. Es wurden viele Suppenanstalten zu dieser Zeit gegründet. Die Menschen ernährten sich zeitweise von Eingeweiden und Blut, dass sie beim Metzger abholten.", "duration": 8000},
+                        {"phrase": "War diese Speise nicht mehr frisch, konnte sie schnell sehr gefährlich werden. Darum unterstütze man die Hungernden, wie in vielen Länder bekannt, mit der Rumfordische Suppe.", "duration": 8000},
+                        {"phrase": "Diese bestand aus Erbsen, Gersten, Kartoffeln, Essig und Salz. Dank dem papinischen Topf konnte die Suppe verbessert werden, indem unter grossem Druck und Hitze sogar Knochen weichgekocht werden konnten.", "duration": 8000}
+                    ]
+                },
+                {
+                    "aid": 4, "answer": [
+                        {"phrase": "Die Menschen assen alles was ihnen zwischen die Finger kam, leider auch Nahrungsmittel, die den Tod mit sich brachten.", "duration": 8000},
+                        {"phrase": "Nachdem das Knochenfett im papinischen Topf ausgesotten wurde, waren die Knochen unbrauchbar und ohne Nährstoffe, jedoch leicht zu zerkauen.", "duration": 8000},
+                        {"phrase": "Diese armen Geschöpfe wussten nicht, dass sie eine Ladung phosphorsauerer Kalk zu sich nahmen und dadurch an den Folgen des Giftes starben.", "duration": 8000},
+                        {"phrase": "Das Unglück war noch nicht zu Ende. Die ungesunde und entkräftende Nahrung schwächte das Immunsystem derart, dass Seuchen leichtes Spiel hatten. So dass, das Nervenfieber viele Opfer forderte.", "duration": 8000}
+                    ]
+                }
+
             ]
         }
     ]

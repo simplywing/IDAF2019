@@ -10,30 +10,54 @@
     <title>IDAF</title>
 </head>
 <body onload="main();"> 
-    <img src="media/png/1_Vulkan.png" alt="" id="1_Vulkan" style="display: none;">
-    <img src="media/png/2_Tueren.png" alt="" id="2_Tueren" style="display: none;">
-    <img src="media/png/3_Vulkanlandschaft.png" alt="" id="3_Vulkanlandschaft" style="display: none;">
-    <img src="media/png/4_Vulkangeist.png" alt="" id="4_Vulkangeist" style="display: none;">
-    <img src="media/png/1_Vulkan.png" alt="" id="1_Vulkan" style="display: none;">
-    <img src="media/png/1_Vulkan.png" alt="" id="1_Vulkan" style="display: none;">
-    <img src="media/png/1_Vulkan.png" alt="" id="1_Vulkan" style="display: none;">
-    <img src="media/png/1_Vulkan.png" alt="" id="1_Vulkan" style="display: none;">
-    <img src="media/png/1_Vulkan.png" alt="" id="1_Vulkan" style="display: none;">
-    <img src="media/png/1_Vulkan.png" alt="" id="1_Vulkan" style="display: none;">
-    <!-- Page Content -->
-    <div class="container">
-        <!--<h1 class="mainTitle">Das Jahr ohne Sommer</h1>-->
-        <!-- <div class="card border-0 shadow my-5">
-            <div class="card-body p-5">
-                <h1 class="font-weight-light">Vulkanausbruch Tambora</h1>
-                <p class="lead">In this snippet, the background image is fixed to the body element. Content on the page will scroll, but the image will remain in a fixed position!</p>
-                <p class="lead">Scroll down...</p>
-                <div style="height: 700px"></div>
-                <p class="lead mb-0">You've reached the end!</p>
-            </div>
-        </div> -->
-    </div>
+    <!-- gci | %{Write-Host ('<img src="media/png/' + $_.name +  '" alt="" id="' + $_.name +  '" style="display: none;" class="imgsrc">')} -->
+    <img src="media/png/1_Vulkan.png" alt="" id="1_Vulkan" style="display: none;" class="imgsrc">
+    <img src="media/png/10_reicher Bauer_mo.png" alt="" id="10_reicher_Bauer_mo" style="display: none;" class="imgsrc">
+    <img src="media/png/10_reicher Bauer.png" alt="" id="10_reicher_Bauer" style="display: none;" class="imgsrc">
+    <img src="media/png/11_Whiteboard.png" alt="" id="11_Whiteboard" style="display: none;" class="imgsrc">
+    <img src="media/png/12_Dr. Emmett Brown_mo.png" alt="" id="12_Dr_Emmett_Brown_mo" style="display: none;" class="imgsrc">
+    <img src="media/png/12_Dr. Emmett Brown.png" alt="" id="12_Dr_Emmett_Brown" style="display: none;" class="imgsrc">
+    <img src="media/png/2_Tueren.png" alt="" id="2_Tueren" style="display: none;" class="imgsrc">
+    <img src="media/png/3_Vulkanlandschaft.png" alt="" id="3_Vulkanlandschaft" style="display: none;" class="imgsrc">
+    <img src="media/png/4_Vulkangeist_mo.png" alt="" id="4_Vulkangeist_mo" style="display: none;" class="imgsrc">
+    <img src="media/png/4_Vulkangeist.png" alt="" id="4_Vulkangeist" style="display: none;" class="imgsrc">
+    <img src="media/png/5_Tambora.png" alt="" id="5_Tambora" style="display: none;" class="imgsrc">
+    <img src="media/png/6_Geist Tambora_mo.png" alt="" id="6_Geist_Tambora_mo" style="display: none;" class="imgsrc">
+    <img src="media/png/6_Geist Tambora.png" alt="" id="6_Geist_Tambora" style="display: none;" class="imgsrc">
+    <img src="media/png/7_Haus armer Bauer.png" alt="" id="7_Haus_armer_Bauer" style="display: none;" class="imgsrc">
+    <img src="media/png/8_armer Bauer_mo.png" alt="" id="8_armer_Bauer_mo" style="display: none;" class="imgsrc">
+    <img src="media/png/8_armer Bauer.png" alt="" id="8_armer_Bauer" style="display: none;" class="imgsrc">
+    <img src="media/png/9_Haus reicher Bauer.png" alt="" id="9_Haus_reicher_Bauer" style="display: none;" class="imgsrc">
+
+   
     <canvas id="mainCanvas" width="500px" height="500px"></canvas>
+    <div id="speechBubble" style="display: none;"></div>
+    <div id="questionBubble" style="display: none;"></div>
+    <div id="questionBar" style="display: none;">
+        <a href="#" data-qid="0" onmouseover="showQuestion(this)" onmouseout="hideQuestion()" onclick="playQuestion(this)">Frage 1</a>
+        <a href="#" data-qid="1" onmouseover="showQuestion(this)" onmouseout="hideQuestion()" onclick="playQuestion(this)">Frage 2</a>
+        <a href="#" data-qid="2" onmouseover="showQuestion(this)" onmouseout="hideQuestion()" onclick="playQuestion(this)">Frage 3</a>
+        <a href="#" data-qid="3" onmouseover="showQuestion(this)" onmouseout="hideQuestion()" onclick="playQuestion(this)">Frage 4</a>
+        <a href="#" data-qid="4" onmouseover="showQuestion(this)" onmouseout="hideQuestion()" onclick="playQuestion(this)">Frage 5</a>
+    </div>
+    <div id="welcomeOverlay">
+        Herzlich Willkommen auf unserer Website!<br><br>
+Du hast gerade das Ergebnis eines Schulprojektes einer Gruppe Schüler, welche die Technische Berufsmatura in Luzern besuchen, vor dir.<br><br>
+Zum Thema “Das Jahr ohne Sommer und Brot” sollte ein beliebiges Lehrmittel gestaltet werden. Damit auch der Spass beim Lernen nicht zu kurz kommt, nehmen wir dich auf spielerische Weise mit in die Vergangenheit.<br><br>
+Jede Tür führt dich zu einer unterschiedlichen Welt oder einem Schauplatz aus der Zeit im Jahre xxx, wo Personen auf dich warten und dir von ihrem Leben in schwierigen Zeiten erzählen. Stelle ihnen Fragen und sie werden dir Auskunft geben.<br><br>
+Viel Spass! <a href="#" onclick="linkGoDoors()">Hier</a> geht's los!
+    </div>
+    <div id="doorBar" style="display: none;">
+        <a href="#" data-sce="6" onclick="openDoor(this)">Tür 1</a>
+        <a href="#" data-sce="4" onclick="openDoor(this)">Tür 2</a>
+        <a href="#" data-sce="2" onclick="openDoor(this)">Tür 3</a>
+        <a href="#" data-sce="3" onclick="openDoor(this)">Tür 4</a>
+        <a href="#" data-sce="5" onclick="openDoor(this)">Tür 5</a>
+    </div>
+    <a href="#" id="goBack" style="display: none;" onclick="linkGoBack();">Zurück</a>
+    <!--Blurred Overlay
+        https://codepen.io/chipChocolate/pen/LEZMeY
+    -->
 </body>
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
@@ -41,3 +65,16 @@
 <script src="script.js"></script>
 <script src="live.js"></script>
 </html>
+ <!-- Page Content -->
+    <!--<div class="container">
+        <h1 class="mainTitle">Das Jahr ohne Sommer</h1>
+        <div class="card border-0 shadow my-5">
+            <div class="card-body p-5">
+                <h1 class="font-weight-light">Vulkanausbruch Tambora</h1>
+                <p class="lead">In this snippet, the background image is fixed to the body element. Content on the page will scroll, but the image will remain in a fixed position!</p>
+                <p class="lead">Scroll down...</p>
+                <div style="height: 700px"></div>
+                <p class="lead mb-0">You've reached the end!</p>
+            </div>
+        </div>
+    </div>-->
