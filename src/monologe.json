@@ -4,11 +4,11 @@
             "id": 0,
             "description": "Schweizer Bauer",
             "welcome" : [
-                {"phrase": "Hallo! Mein Name ist Walter Odermatt. Ich bin 35 Jahre alt und aufgewachsen in einer glarner Bauernfamilie. Meine Frau Gertrud und ich haben acht Kinder und einen Hof.", "duration": 8000}
+                {"phrase": "Hallo! Mein Name ist Walter Odermatt. Ich bin 35 Jahre alt und aufgewachsen in einer Glarner Bauernfamilie. Meine Frau Gertrud und ich haben acht Kinder und einen Hof.", "duration": 8000}
             ],
             "questions": [
                 {"qid": 0, "question": "Welchen Beruf haben Sie erlernt und konnten Sie mit diesem ihre Familie ernähren?"},
-                {"qid": 1, "question": "Hatten Sie in ihrem Leben jemals etwas versucht ihrer Familie einen besseren Lebensstandard zu bieten oder haben Sie ihr Leben lang dasselbe Handwerk ausgeübt?"},
+                {"qid": 1, "question": "Hatten Sie in ihrem Leben jemals versucht ihrer Familie einen besseren Lebensstandard zu bieten oder haben Sie ihr Leben lang dasselbe Handwerk ausgeübt?"},
                 {"qid": 2, "question": "Haben sich die folgenden Hungerjahre auf irgendeine Art und Weise angekündigt?"},
                 {"qid": 3, "question": "Wie empfanden sie den sozialen Zusammenhalt in diesen schweren Zeiten?"},
                 {"qid": 4, "question": "Was taten die armen Familien in den Bauernständen um sich zu ernähren?"}                
@@ -16,40 +16,40 @@
             "answers": [
                 {
                     "aid": 0, "answer": [
-                        {"phrase": "In meinen jungen Jahren wurde ich von meinem Vater als Tagelöhner eingesetzt.", "duration": 6000},
-                        {"phrase": "Ich fand eine Knechtschaft beim Schlossbauer Weibel und dieser brachte mir die Handwerkskunst bei.", "duration": 8000},
-                        {"phrase": "Das Geld reichte nicht wirklich weit, jedoch reichte es aus, meine Familie und mich zu ernähren, sowie den Hof zu unterhalten.", "duration": 8000}
+                        {"phrase": "In meinen jungen Jahren wurde ich von meinem Vater als Tagelöhner eingesetzt.", "duration": 7000},
+                        {"phrase": "Ich fand eine Knechtschaft beim Schlossbauer Weibel und dieser brachte mir die Handwerkskunst bei.", "duration": 9000},
+                        {"phrase": "Das Geld reichte nicht wirklich weit, jedoch reichte es aus, meine Familie und mich zu ernähren, sowie den Hof zu unterhalten.", "duration": 11000}
                     ]
                 },
                 {
                     "aid": 1, "answer": [
                         {"phrase": "Ja, eines Tages versuchte ich es mit einem Webkeller.", "duration": 6000},
-                        {"phrase": "Ich sparte genug Geld aus meiner Tätigkeit als Schlosser und richtetet bei mir zu Hause einen Webkeller ein.", "duration": 8000},
-                        {"phrase": "Nach und nach lehrte ich meine Brüder an zu weben.", "duration": 5000},
-                        {"phrase": "Leider stellte sich später heraus, dass dieses Unterfangen unserer Familie mehr geschadet hat als es genützt hätte.", "duration": 8000}
+                        {"phrase": "Ich sparte genug Geld aus meiner Tätigkeit als Schlosser und richtetet bei mir zu Hause einen Webkeller ein.", "duration": 9000},
+                        {"phrase": "Nach und nach lehrte ich meine Brüder an zu weben.", "duration": 6000},
+                        {"phrase": "Leider stellte sich später heraus, dass dieses Unterfangen unserer Familie mehr geschadet hat als es genützt hätte.", "duration": 10000}
                     ]
                 },
                 {
                     "aid": 2, "answer": [
-                        {"phrase": "Nein! Wir konnten uns keines Wegs darauf vorbereiten! Sonst hätte ich ja nicht in diesem blödsinnigen Webkeller investiert! ", "duration": 8000},
+                        {"phrase": "Nein! Wir konnten uns keines Wegs darauf vorbereiten! Sonst hätte ich ja nicht in diesem blödsinnigen Webkeller investiert! ", "duration": 10000},
                         {"phrase": "Die Ernten gingen den Bach hinunter und die Preise für Brot stiegen abscheulich in die Höhe…", "duration": 8000},
-                        {"phrase": "Die einzigen die da profitierten waren doch die Bäcker und Müller.", "duration": 6000},
+                        {"phrase": "Die Einzigen, die da profitierten waren doch die Bäcker und Müller.", "duration": 7000},
                         {"phrase": "Wir aus dem Baumwollgewerbe waren aufgeschmissen und dem Hunger ausgeliefert!", "duration": 8000}
                     ]
                 },
                 {
                     "aid": 3, "answer": [
-                        {"phrase": "Furchtbar! Es war traurig anzusehen, so etwas wünscht man keinem.", "duration": 6000},
-                        {"phrase": "Jeder Tag war ein Kampf ums Überleben.", "duration": 4000},
-                        {"phrase": "Stellen Sie sich vor, sogar meine Kartoffeln und all mein Gemüse wurden aus meinem Garten geklaut. Aus meinen netten Nachbaren wurden elende Langfinger!", "duration": 8000}
+                        {"phrase": "Furchtbar! Es war traurig anzusehen, so etwas wünscht man keinem.", "duration": 7000},
+                        {"phrase": "Jeder Tag war ein Kampf ums Überleben.", "duration": 6000},
+                        {"phrase": "Stellen Sie sich vor, sogar meine Kartoffeln und all mein Gemüse wurden aus meinem Garten geklaut. Aus meinen netten Nachbaren wurden elende Langfinger!", "duration": 12000}
                     ]
                 },
                 {
                     "aid": 4, "answer": [
-                        {"phrase": "Ich habe da abscheuliches beobachtet… Ich habe mit eigenen Augen beobachtet, wie ein Vater mit seinen Kindern von einem verreckten Pferd einen ganzen Sack voll Fleisch abgehackt hat.", "duration": 10000},
-                        {"phrase": "Dieses scheussliche Pferd lag schon mehrere Tage da im Dreck und wurde schon von diversen Tieren als Nahrungsquelle gebraucht.", "duration": 8000},
-                        {"phrase": "Ich selbst konnte nicht genug Nahrung für die ganze Familie aufbringen. Ihre Körper wurden schwächer und schliesslich hat der liebe Gott mehrere meiner Kinder zu sich genommen.", "duration": 8000},
-                        {"phrase": "Erst im Frühling konnten wir uns wieder von Wurzeln und Kräutern ernähren.", "duration": 6000}
+                        {"phrase": "Ich habe Abscheuliches beobachtet… Ich habe mit eigenen Augen beobachtet, wie ein Vater mit seinen Kindern von einem verreckten Pferd einen ganzen Sack voll Fleisch abgehackt hat.", "duration": 14000},
+                        {"phrase": "Dieses scheussliche Pferd lag schon mehrere Tage da im Dreck und wurde schon von diversen Tieren als Nahrungsquelle gebraucht.", "duration": 10000},
+                        {"phrase": "Ich selbst konnte nicht genug Nahrung für die ganze Familie aufbringen. Ihre Körper wurden schwächer und schliesslich hat der liebe Gott mehrere meiner Kinder zu sich genommen.", "duration": 14000},
+                        {"phrase": "Erst im Frühling konnten wir uns wieder von Wurzeln und Kräutern ernähren.", "duration": 7000}
                     ]
                 }
 
@@ -59,10 +59,10 @@
             "id": 1,
             "description": "Wohlhabender Schweizer",
             "welcome" : [
-                {"phrase": "Guten Tag! Mein Name ist Ernst Friedrich Wildhaber. Ich bin 50 Jahre. Angestellt als Pfarrer in St.Gallen, gelernt in Philosophie und Naturkunde bereise ich die ganze Schweiz.", "duration": 8000}
+                {"phrase": "Guten Tag! Mein Name ist Ernst Friedrich Wildhaber. Ich bin 50 Jahre alt. Angestellt als Pfarrer in St.Gallen, gelernt in Philosophie und Naturkunde bereise ich die ganze Schweiz.", "duration": 8000}
             ],
             "questions": [
-                {"qid": 0, "question": "Sie bereisten verschiedene Ortschaften während den Hungerjahren in der Schweiz. Welches war Ihrer Meinung nach am schlimmsten betroffen?"},
+                {"qid": 0, "question": "Sie bereisten verschiedene Ortschaften während den Hungerjahren in der Schweiz. Welcher Ort war Ihrer Meinung nach am schlimmsten betroffen?"},
                 {"qid": 1, "question": "Welcher Eindruck hat Sie am meisten geprägt?"},
                 {"qid": 2, "question": "Hatten diese Hungersnöte auch Auswirkungen auf die Politik bzw. auf den Staat? Hat der Staat zu dieser Zeit etwas gegen die Probleme der Bevölkerung unternommen?"},
                 {"qid": 3, "question": "Hat die obere Gesellschaft etwas unternommen, um den hungernden Menschen zu helfen?"},
@@ -73,39 +73,39 @@
                     "aid": 0, "answer": [
                         {"phrase": "Da kann ich ihnen keine konkrete Ortschaft nennen, da eher mehrere Kantone davon betroffen waren.", "duration": 8000},
                         {"phrase": "Soweit ich mich erinnern kann, waren es die Kantone St.Gallen, Glarus, Appenzell und Thurgau.", "duration": 8000},
-                        {"phrase": "Es traf am härtesten die Kantone, die sich auf Gewerbe und Handel konzentrierten. Im Kanton Appenzell starben 7000 mehr als geboren wurden.", "duration": 8000},
-                        {"phrase": "Zum Vergleich starben im Kanton Luzern, der überwiegen vom Getreidehandel und der Viehzucht lebte, keine Menschen.", "duration": 8000}
+                        {"phrase": "Es traf am härtesten die Kantone, die sich auf Gewerbe und Handel konzentrierten. Im Kanton Appenzell starben 7000 Bürger mehr als geboren wurden.", "duration": 10000},
+                        {"phrase": "Zum Vergleich starben im Kanton Luzern, der überwiegend vom Getreidehandel und der Viehzucht lebte, keine Menschen.", "duration": 10000}
                     ]
                 },
                 {
                     "aid": 1, "answer": [
-                        {"phrase": "Noch heute schaudert mich der Gedanke daran, als ich in die Stuben der armen Menschen in Glarus trat. Was mir da vor Augen kam, werde ich nie vergessen.", "duration": 8000},
-                        {"phrase": "Es waren ungefähr acht Menschen, gekleidet in schwarzen, zerrissenen Fetzen. Der Schmutz und Dunst waren zum Erschrecken. Die Weiber halb nackt.", "duration": 8000},
-                        {"phrase": "In einer Wiege lag ein neugeborenes Kind, von einem Leichnam als Leichnam geboren! Als ich nach diesem Schock nach draussen flüchtete, grauste es mich erneut.", "duration": 8000},
-                        {"phrase": "Ich sah haufenweise Menschen wie sie auf den Strassen die Kotgefässe nach Essen durchwühlten und Kartoffelhülsen, faulende Rüben usw. mit Begierde verschlingten.", "duration": 8000}
+                        {"phrase": "Noch heute schaudert mich der Gedanke daran, als ich in die Stuben der armen Menschen in Glarus trat. Was mir da vor Augen kam, werde ich nie vergessen.", "duration": 12000},
+                        {"phrase": "Es waren ungefähr acht Menschen gekleidet in schwarzen, zerrissenen Fetzen. Der Schmutz und Dunst waren zum Erschrecken. Die Weiber halb nackt.", "duration": 12000},
+                        {"phrase": "In einer Wiege lag ein neugeborenes Kind, von einem Leichnam als Leichnam geboren! Als ich nach diesem Schock nach draussen flüchtete, grauste es mich erneut.", "duration": 14000},
+                        {"phrase": "Ich sah haufenweise Menschen, wie sie auf den Strassen die Kotgefässe nach Essen durchwühlten und Kartoffelhülsen, faulende Rüben usw. mit Begierde verschlingen.", "duration": 14000}
                     ]
                 },
                 {
                     "aid": 2, "answer": [
-                        {"phrase": "Ja sehr wohl! Die tonangebende Bürgerklasse setzte sich armenpolitische Reformen ein. Der neue Begriff «Pauperismus» wurde Gegenstand in diversen heftigen Debatten.", "duration": 8000},
-                        {"phrase": "Der «Pauper» war eine Person, die sich durch Arbeit kein ausreichendes Einkommen mehr verschaffen konnte.", "duration": 8000},
-                        {"phrase": "Die Teuerung, die durch schlechte Ernten und darauf Folgende Angst und Kaufsucht sowie Handelseinschränkungen entstand, trieb viele Familien in die Armut.", "duration": 8000},
-                        {"phrase": "Dar Staat reagierte mit sogenannten Zwangs- und Arbeitsanstalten. In diesen Anstalten wurden die Bettler im Austausch für Ihre Arbeit mit sauberen Kleidern und Suppe, sowie wenig Lohn ausgestattet.", "duration": 8000}
+                        {"phrase": "Ja sehr wohl! Die tonangebende Bürgerklasse setzte sich für armenpolitische Reformen ein. Der neue Begriff «Pauperismus» wurde Gegenstand in diversen heftigen Debatten.", "duration": 15000},
+                        {"phrase": "Der «Pauper» war eine Person, die sich durch Arbeit kein ausreichendes Einkommen mehr verschaffen konnte.", "duration": 9000},
+                        {"phrase": "Die Teuerung, die durch schlechte Ernten und darauf folgende Angst und Kaufsucht sowie Handelseinschränkungen entstand, trieb viele Familien in die Armut.", "duration": 12000},
+                        {"phrase": "Dar Staat reagierte mit sogenannten Zwangs- und Arbeitsanstalten. In diesen Anstalten wurden die Bettler im Austausch für Ihre Arbeit mit sauberen Kleidern und Suppe, sowie wenig Lohn ausgestattet.", "duration": 16000}
                     ]
                 },
                 {
                     "aid": 3, "answer": [
-                        {"phrase": "Sehr wohl haben Sie das. Es wurden viele Suppenanstalten zu dieser Zeit gegründet. Die Menschen ernährten sich zeitweise von Eingeweiden und Blut, dass sie beim Metzger abholten.", "duration": 8000},
-                        {"phrase": "War diese Speise nicht mehr frisch, konnte sie schnell sehr gefährlich werden. Darum unterstütze man die Hungernden, wie in vielen Länder bekannt, mit der Rumfordische Suppe.", "duration": 8000},
-                        {"phrase": "Diese bestand aus Erbsen, Gersten, Kartoffeln, Essig und Salz. Dank dem papinischen Topf konnte die Suppe verbessert werden, indem unter grossem Druck und Hitze sogar Knochen weichgekocht werden konnten.", "duration": 8000}
+                        {"phrase": "Sehr wohl haben Sie das. Es wurden viele Suppenanstalten zu dieser Zeit gegründet. Die Menschen ernährten sich zeitweise von Eingeweiden und Blut, dass sie beim Metzger abholten.", "duration": 14000},
+                        {"phrase": "War diese Speise nicht mehr frisch, konnte sie schnell zum Krankheitserreger werden. Darum unterstütze man die Hungernden mit der in vielen Ländern bekannten Rumfordischen Suppe.", "duration": 15000},
+                        {"phrase": "Diese bestand aus Erbsen, Gersten, Kartoffeln, Essig und Salz. Dank dem papinischen Topf konnte die Suppe verbessert werden, indem unter grossem Druck und Hitze sogar Knochen weichgekocht werden konnten.", "duration": 16000}
                     ]
                 },
                 {
                     "aid": 4, "answer": [
-                        {"phrase": "Die Menschen assen alles was ihnen zwischen die Finger kam, leider auch Nahrungsmittel, die den Tod mit sich brachten.", "duration": 8000},
-                        {"phrase": "Nachdem das Knochenfett im papinischen Topf ausgesotten wurde, waren die Knochen unbrauchbar und ohne Nährstoffe, jedoch leicht zu zerkauen.", "duration": 8000},
-                        {"phrase": "Diese armen Geschöpfe wussten nicht, dass sie eine Ladung phosphorsauerer Kalk zu sich nahmen und dadurch an den Folgen des Giftes starben.", "duration": 8000},
-                        {"phrase": "Das Unglück war noch nicht zu Ende. Die ungesunde und entkräftende Nahrung schwächte das Immunsystem derart, dass Seuchen leichtes Spiel hatten. So dass, das Nervenfieber viele Opfer forderte.", "duration": 8000}
+                        {"phrase": "Die Menschen assen alles, was ihnen zwischen die Finger kam. Leider auch Nahrungsmittel, die den Tod mit sich brachten.", "duration": 9000},
+                        {"phrase": "Nachdem das Knochenfett im papinischen Topf gesotten wurde, waren die Knochen unbrauchbar und ohne Nährstoffe, jedoch leicht zu zerkauen.", "duration": 12000},
+                        {"phrase": "Diese armen Geschöpfe wussten nicht, dass sie eine Ladung phosphorsaueren Kalk zu sich nahmen und dadurch an den Folgen des Giftes starben.", "duration": 12000},
+                        {"phrase": "Das Unglück war noch nicht zu Ende. Die ungesunde und entkräftende Nahrung schwächte das Immunsystem derart, dass Seuchen leichtes Spiel hatten. Das Nervenfieber forderte auf diese Weise viele Opfer.", "duration": 16000}
                     ]
                 }
 
@@ -115,49 +115,49 @@
             "id": 2,
             "description": "Vulkangeist",
             "welcome" : [
-                {"phrase": "Ich bin Tambora, der Geist des bekannten Vulkanes. Ich habe euch viele Fakten zum Ausbruch aus dem Jahre 1815 und Daten zum Wetter auf der ganzen Welt. Vielleicht weiss ich ganz bestimmte Tatsachen aus der Schweiz, wer weiss… Frag mich doch einfach!", "duration": 8000}
+                {"phrase": "Ich bin Tambora, der Geist des bekannten Vulkans. Ich habe euch viele Fakten zum Ausbruch aus dem Jahre 1815 und Daten zum Wetter auf der ganzen Welt. Vielleicht weiss ich ganz bestimmte Tatsachen aus der Schweiz, wer weiss… Frag mich doch einfach!", "duration": 10000}
             ],
             "questions": [
-                {"qid": 0, "question": "Die Eruption im Jahre 1815 ging in die Geschichtsbücher ein, was war an dieser so besonders?"},
-                {"qid": 1, "question": "Hast du kein schlechtes Gewissen für die Opfer, die du gefordert hast?"},
+                {"qid": 0, "question": "Die Eruption im Jahre 1815 ging in die Geschichtsbücher ein. Was war an daran so besonders?"},
+                {"qid": 1, "question": "Hast du kein schlechtes Gewissen gegenüber den Opfern, die du gefordert hast?"},
                 {"qid": 2, "question": "Hatte deine Eruption Auswirkungen auf das Weltklima?"},
                 {"qid": 3, "question": "Bei deiner Vorstellung hast du etwas über die Schweiz erwähnt… Was war da speziell?"},
-                {"qid": 4, "question": "Du hattest eine unglaubliche Wucht bei deiner Eruption, kannst du uns einen Verlgeich geben damit wir uns dies besser vorstellen können?"}                
+                {"qid": 4, "question": "Du hattest eine unglaubliche Wucht bei deiner Eruption, kannst du uns einen Vergleich geben, damit wir uns dies besser vorstellen können?"}                
             ],
             "answers": [
                 {
                     "aid": 0, "answer": [
-                        {"phrase": "Oh! Wow! Ich habe es in eure Bücher geschafft! Im Jahre 1815 war es eine ganz besondere Eruption.", "duration": 8000},
-                        {"phrase": "Ich war unglaubliche 4300 Meter hoch, einer der höchsten Gipfel des indonesischen Archipels. Nach dem grossen Knall, also heute, bin ich gerade noch 2850 Meter hoch.", "duration": 8000},
-                        {"phrase": "Ich schleuderte ungeheuerliche 140 Milliarden Tonnen Gestein weg! Eine riesen Leistung, da bin ich heute noch sehr stolz darauf!", "duration": 8000}
+                        {"phrase": "Oh! Wow! Ich habe es in eure Bücher geschafft! Im Jahre 1815 war es eine ganz besondere Eruption.", "duration": 9000},
+                        {"phrase": "Der Vulkan war unglaubliche 4'300 Meter hoch, einer der höchsten Gipfel des indonesischen Archipels. Seit dem grossen Knall bin ich gerade noch 2'850 Meter hoch.", "duration": 13000},
+                        {"phrase": "Ich schleuderte ungeheuerliche 140 Milliarden Tonnen Gestein weg! Eine wahnsinnige Leistung, da bin ich heute noch sehr stolz darauf!", "duration": 10000}
                     ]
                 },
                 {
                     "aid": 1, "answer": [
-                        {"phrase": "Keines Falls! Es liegt in meiner Natur zu Explodieren! Soweit mir bekannt ist, waren es ja gar nicht so viele.", "duration": 8000},
-                        {"phrase": "Die kleinen Dörfer, die an meinem Fusse hausten, löschte ich gleich komplett aus. Da waren mal 10.000 weg!", "duration": 8000},
-                        {"phrase": "Die weiteren Tote waren ja nicht unbedingte meine Schuld, diese armen Lebewesen konnten einfach nicht ohne Sommer leben…", "duration": 8000},
-                        {"phrase": "Deshalb verliessen uns weitere 100.000 und da war der Hunger schuld und nicht ich! Andere 80.000 fielen wegen der Krankheit, auch nicht wegen mir.", "duration": 8000}
+                        {"phrase": "Keines Falls! Es liegt in meiner Natur zu explodieren! Soweit mir bekannt ist, waren es ja gar nicht so viele Opfer.", "duration": 10000},
+                        {"phrase": "Die kleinen Dörfer, die an meinem Fusse hausten, löschte ich gleich komplett aus. Da habe ich 10'000 in den Tod gerissen!", "duration": 10000},
+                        {"phrase": "Die weiteren Toten waren ja nicht unbedingte meine Schuld. Diese armen Lebewesen konnten einfach nicht ohne Sommer leben…", "duration": 10000},
+                        {"phrase": "Deshalb verliessen uns weitere 100'000 Menschen. Aber da war der Hunger schuld und nicht ich! Weitere 80'000 Opfer erlagen den unterschiedlichsten Krankheiten. Also auch nicht wegen mir.", "duration": 16000}
                     ]
                 },
                 {
                     "aid": 2, "answer": [
-                        {"phrase": "Leider ja, aber das habe ich nicht mit Absicht gemacht… Durch meine Eruption wurden so viele Staubteilchen in die Atmosphäre geschleudert, dass prompt kein Sonnenlicht mehr durchkam.", "duration": 8000},
-                        {"phrase": "Auf der ganzen Welt sanken die Durchschnittstemperaturen bis zu 3.5 Grad Celsius und in gewissen Bereichen gab es Jahre ohne Sommer.", "duration": 8000},
-                        {"phrase": "Daraus folgten Ernteeinbussen, Preissteigerung, Überschwemmungen und anschliessend die Hungersnot, die mehreren das Leben kostete.", "duration": 8000}
+                        {"phrase": "Leider ja, aber das habe ich nicht mit Absicht gemacht… Durch meine Eruption wurden so viele Staubteilchen in die Atmosphäre geschleudert, dass prompt kein Sonnenlicht mehr durchkam.", "duration": 16000},
+                        {"phrase": "Auf der ganzen Welt sanken die Durchschnittstemperaturen bis zu 3.5 Grad Celsius. In gewissen Regionen gab es sogar Jahre ohne Sommer.", "duration": 10000},
+                        {"phrase": "Daraus folgten Ernteeinbussen, Preissteigerungen, Überschwemmungen und anschliessend die Hungersnot, die einigen das Leben kostete.", "duration": 10000}
                     ]
                 },
                 {
                     "aid": 3, "answer": [
-                        {"phrase": "Gute Frage… Durch meine Eruption sanken die Temperaturen, die Schweiz traf es da am schlimmsten. Die Durchschnittstemperaturen sanken um 3.5 Grad Celsius.", "duration": 8000},
-                        {"phrase": "Durch diesen Temperatur Sturz, fiel sogar einmal Schnee im Juli! Als die zwei Jahre ohne Sommer endlich überstanden waren, war das Übel noch nicht vorbei.", "duration": 8000},
-                        {"phrase": "Es fiel so viel Schnee, am Anfang kamen diese in Lawinen runter und zerstörten ganze Dörfer. Die weisse Pracht fing dann an zu schmelzen und alle Flüsse und Seen waren überfordert.", "duration": 8000},
-                        {"phrase": "Das ganze Land stand unter Wasser und puff wieder eine Ernte futsch! Und als Krönung des ganzen Naturschauspiels kam der Hagel und puff wieder eine Ernte futsch!", "duration": 8000}
+                        {"phrase": "Gute Frage… Durch meine Eruption sanken die Temperaturen. Die Schweiz war davon am Schlimmsten betroffen. Die Durchschnittstemperaturen sanken um 3.5 Grad Celsius.", "duration": 14000},
+                        {"phrase": "Durch diesen Temperatursturz fiel sogar einmal bereits im Juli Schnee! Als die zwei Jahre ohne Sommer endlich überstanden waren, war das Übel noch nicht vorbei.", "duration": 14000},
+                        {"phrase": "Es fiel so viel Schnee, dass Lawinen ganze Dörfer zerstörten. Die weisse Pracht fing schliesslich an zu schmelzen und alle Flüsse und Seen waren überfordert.", "duration": 14000},
+                        {"phrase": "Das ganze Land stand unter Wasser und puff... wieder eine Ernte futsch! Und als Krönung des ganzen Naturschauspiels kam der Hagel und puff... die nächste Ernte futsch!", "duration": 15000}
                     ]
                 },
                 {
                     "aid": 4, "answer": [
-                        {"phrase": "hihi. Ja. Ich schleuderte meine Massen 40 Kilometer in die Luft, diese Wucht entspricht ungefähr 50.000 Hiroshima-Atombomben! Cool oder?", "duration": 8000}
+                        {"phrase": "Hihi Ja. Ich schleuderte meine Masse 40 Kilometer in die Luft. Diese Wucht entspricht ungefähr 50'000 Hiroshima-Atombomben! Cool oder?!", "duration": 11000}
                     ]
                 }
 
@@ -172,40 +172,40 @@
             "questions": [
                 {"qid": 0, "question": "Was ist mit Ihrem Dorf passiert?"},
                 {"qid": 1, "question": "Welchen Anblick bot die Insel nach der Eruption?"},
-                {"qid": 2, "question": "Können Sie das Szenario des Ausbruches uns etwas näher beschreiben?"},
+                {"qid": 2, "question": "Können Sie uns das Szenario des Ausbruches etwas näher beschreiben?"},
                 {"qid": 3, "question": "Bist du wirklich ein Geist?"},
                 {"qid": 4, "question": "Wie heisst du nochmals?"}                
             ],
             "answers": [
                 {
                     "aid": 0, "answer": [
-                        {"phrase": "Ich war gerade in der Küche und habe das Essen vorbereitet, da hörte ich einen riesen Knall.", "duration": 8000},
+                        {"phrase": "Ich war gerade in der Küche und habe das Essen vorbereitet, da hörte ich einen unglaublich lauten Knall.", "duration": 9000},
                         {"phrase": "Ich versuchte mich unter einem Tisch zu verstecken, jedoch war es kein übliches Erdbeben.", "duration": 8000},
-                        {"phrase": "Es kam eine riesen Walze aus pyroklastischem Staub auf uns zu und vergrub unser ganzes Dorf innert weniger Minuten. ", "duration": 8000}
+                        {"phrase": "Es kam eine riesige Walze aus pyroklastischem Staub auf uns zu und vergrub unser ganzes Dorf innert wenigen Minuten. ", "duration": 10000}
                     ]
                 },
                 {
                     "aid": 1, "answer": [
-                        {"phrase": "Es war ein Alptraum, es macht mich heute noch ganz traurig, wenn ich daran denke!", "duration": 8000},
-                        {"phrase": "Die Dörfer waren zerstört und nicht mehr bewohnbar. Schlamm und Asche bedeckte in einer 60 Zentimeter mächtigen Schicht den grössten Teil der Insel.", "duration": 8000},
-                        {"phrase": "Auch wenn die Häuser noch ganz wären, dank diesem Schlamm waren unsere Ernten dahin und wir wären schlussendlich am Hunger gestorben…", "duration": 8000}
+                        {"phrase": "Es war ein Alptraum. Es macht mich heute noch ganz traurig, wenn ich daran denke!", "duration": 8000},
+                        {"phrase": "Die Dörfer waren zerstört und nicht mehr bewohnbar. Schlamm und Asche bedeckten in einer 60 Zentimeter dicken Schicht den grössten Teil der Insel.", "duration": 12000},
+                        {"phrase": "Auch wenn die Häuser noch ganz wären, wegen diesem Schlamm waren unsere Ernten dahin und wir wären schliesslich am Hunger gestorben…", "duration": 11000}
                     ]
                 },
                 {
                     "aid": 2, "answer": [
-                        {"phrase": "Alles fing am 5. April 1815 an. Aus dem Vulkan flossen heisse Lavaströme den Berg hinuntern.", "duration": 8000},
-                        {"phrase": "Am 10. April brachen gegen 7 Uhr abends drei getrennte Feuersäulen nahe dem Tambora-Gipfel hervor, alle dem Anschein nach innerhalb des Kraterrandes; und nachdem jede von ihnen zu einer großen Höhen aufgestiegen war, vereinigten sich ihre oberen Enden in der Luft zu einer wild verschlungenen, unruhigen Spirale.", "duration": 13000},
-                        {"phrase": "Nach kurzer Zeit glich der ganze Berg einer Masse aus flüssigem Feuer, das sich in alle Richtungen ausbreitete. Das war auch das Todesurteil unseres Volkes!", "duration": 8000}
+                        {"phrase": "Alles fing am 5. April 1815 an. Aus dem Vulkan flossen heisse Lavaströme den Berg hinunter.", "duration": 9000},
+                        {"phrase": "Am 10. April brachen gegen 7 Uhr abends drei getrennte Feuersäulen nahe dem Tambora-Gipfel hervor. Allem Anschein nach flossen diese innerhalb des Kraterrandes entlang. Nachdem jede Feuersäule zu einer großen Höhe aufgestiegen war, vereinigten sich ihre oberen Enden in der Luft zu einer wild verschlungenen und unruhigen Spirale.", "duration": 24000},
+                        {"phrase": "Nach kurzer Zeit glich der ganze Berg einer Masse aus flüssigem Feuer, das sich in alle Richtungen ausbreitete. Das war schliesslich das Todesurteil unseres Volkes!", "duration": 14000}
                     ]
                 },
                 {
                     "aid": 3, "answer": [
-                        {"phrase": "Ja klar, oder schon einmal einen lebenden Geist gesehen? In deinen Träumen bin ich immer mit meiner besten Freundin dem HIppi-Gspänstli unterwegs.", "duration": 3000}
+                        {"phrase": "Ja klar, oder schon einmal einen lebenden Geist gesehen? In deinen Träumen bin ich immer mit meiner besten Freundin dem Hippi-Gspänstli unterwegs.", "duration": 12000}
                     ]
                 },
                 {
                     "aid": 4, "answer": [
-                        {"phrase": "Java Doro Api Toi, ich weiss... ein bisschen lange...", "duration": 6000}
+                        {"phrase": "Java Doro Api Toi, ich weiss... Kein einfacher Name...", "duration": 7000}
                     ]
                 }
 
@@ -215,10 +215,10 @@
             "id": 4,
             "description": "Back to the Future",
             "welcome" : [
-                {"phrase": "Guten Tag ihr unwissenden Geschöpfe der Gegenwart! Ich bin Dr. Emmett Brown. Ich bin ein bisschen verrückt, jedoch kann ich eure Fragen über der Hungersnot in der Zukunft beantworten.", "duration": 8000}
+                {"phrase": "Guten Tag ihr unwissenden Geschöpfe der Gegenwart! Ich bin Dr. Emmett Brown. Ich bin ein bisschen verrückt, jedoch kann ich eure Fragen über die Hungersnot in der Zukunft beantworten.", "duration": 8000}
             ],
             "questions": [
-                {"qid": 0, "question": "Da Sie Herr Doktor ja wohl allwissend sind, können sie mir erklären welche Arten von Hunger es überhaupt gibt?"},
+                {"qid": 0, "question": "Da Sie, Herr Doktor, ja wohl allwissend sind, können sie mir bestimmt erklären, welche Arten von Hunger es überhaupt gibt?"},
                 {"qid": 1, "question": "Wo ist man am meisten vom Hunger betroffen?"},
                 {"qid": 2, "question": "Warum gibt es überhaupt Hungersnöte?"},
                 {"qid": 3, "question": "Was sind die Folgen von Hunger?"},
@@ -227,37 +227,36 @@
             "answers": [
                 {
                     "aid": 0, "answer": [
-                        {"phrase": "Sehr wohl bin ich über alles unterrichtet! Es gibt grundlegend drei Arten von Hunger. Der verborgene Hunger, dieser bezeichnet ein unbewusster Mangel von Nährstoffen.", "duration": 8000},
-                        {"phrase": "Diese Form ist meist nicht direkt sichtbar, doch aus Einschränkung wichtigen Nährstoffen wie Eisen, Jod, Zink oder Vitamin A entstehen schreckliche Krankheiten.", "duration": 8000},
-                        {"phrase": "Dann gibt es noch den chronischen Hunger, davon sind Menschen in Krisengebiet betroffen und ihnen fehlt es über längere Zeit an genügend Nahrung.", "duration": 8000},
-                        {"phrase": "Als dritte und letztes Art gibt es noch den akuten Hunger, auch als Hungersnot bezeichnet. Es ist die extremste Form von Hunger und trifft nach Kriegen oder Naturkatastrophen ein. Die Menschen habe keine Nahrung und über längere Zeit sterben sie am Hungertot.", "duration": 10000}
+                        {"phrase": "Sehr wohl bin ich über alles unterrichtet! Es gibt grundlegend drei Arten von Hunger. Erstens der verborgene Hunger. Dieser bezeichnet ein unbewusster Mangel von Nährstoffen.", "duration": 14000},
+                        {"phrase": "Diese Form ist meist nicht direkt sichtbar, doch aus Einschränkungen wichtiger Nährstoffe wie Eisen, Jod, Zink oder Vitamin A entstehen schreckliche Krankheiten.", "duration": 14000},
+                        {"phrase": "Dann gibt es noch den chronischen Hunger, wovon Menschen in Krisengebiet betroffen sind. Ihnen fehlt es über längere Zeit an genügend Nahrung.", "duration": 12000},
+                        {"phrase": "Als dritte und letztes Art gibt es noch den akuten Hunger. Ebenfalls als Hungersnot bezeichnet. Es ist die extremste Form von Hunger und trifft nach Kriegen oder Naturkatastrophen ein. Die Menschen haben über längere Zeit keine Nahrung und sterben schliesslich an Hungersnot.", "duration": 22000}
                     ]
                 },
                 {
                     "aid": 1, "answer": [
-                        {"phrase": "Lassen sie mich schnell überlegen, ich kann Ihnen dazu nur ungenaue Informationen bieten…", "duration": 8000},
-                        {"phrase": "Ungefähr dreiviertel aller Hungernden leben auf dem Land. Sie arbeiten als klein Bauern oder als Tagelöhner.", "duration": 8000},
-                        {"phrase": "Laut dem Welthungerindex wird nur die zentralafrikanische Repubilk als gravierend eingestuft, jedoch bin ich überzeugt, dass es noch weit mehr Hungenderende auf unserem Planeten gibt.", "duration": 8000}
+                        {"phrase": "Lassen sie mich schnell überlegen... Ich kann Ihnen dazu nur ungenaue Informationen geben…", "duration": 9000},
+                        {"phrase": "Rund Dreiviertel aller Hungernden leben auf dem Land. Sie arbeiten als Kleinbauern oder als Tagelöhner.", "duration": 9000},
+                        {"phrase": "Laut dem Welthungerindex wird nur die zentralafrikanische Republik als gravierend eingestuft. Jedoch bin ich überzeugt, dass es noch weit mehr Hungernde auf unserem Planeten gibt.", "duration": 16000}
                     ]
                 },
                 {
                     "aid": 2, "answer": [
                         {"phrase": "Ihre Fragen sind sehr interessant. Je nach Region gibt es ganz unterschiedliche Gründe.", "duration": 8000},
-                        {"phrase": "Die Gründe reichen von Kriegen, Krisen und Katastrophen, schlechter Regierungsführung, ungerechter Landverteilung, Klimaveränderungen, Finanzkrisen, gesellschaftlicher Benachteiligung bis hin zu Welthandelsproblemen. Ich hoffe ich konnte Ihnen damit weiterhelfen.", "duration": 13000}
+                        {"phrase": "Die Gründe reichen von Kriegen, Krisen und Katastrophen, schlechter Regierungsführung, ungerechter Landverteilung, Klimaveränderungen, Finanzkrisen, gesellschaftlicher Benachteiligungen, bis hin zu Welthandelsproblemen. Ich hoffe, ich konnte Ihnen damit weiterhelfen.", "duration": 20000}
                     ]
                 },
                 {
                     "aid": 3, "answer": [
-                        {"phrase": "Die Folgen sind unschön. Ich wünsche dies keiner Person! Bei mangelnder Ernährung leidet der Körper unter den fehlenden Nährstoffen. ", "duration": 8000},
-                        {"phrase": "Die körperliche und geistige Entwicklung des Menschen ist eingeschränkt, er kann sich schlechter konzentrieren und erbringt schlechtere Leistungen.", "duration": 8000},
-                        {"phrase": "Ausserdem ist ein mangelernährter Mensch auch anfälliger für chronische Krankheiten. Beides führt tendenziell zu einer reduzierten körperlichen und geistigen Leistungsfähigkeit.", "duration": 8000},
-                        {"phrase": "Ausserdem ist ein mangelernährter Mensch auch anfälliger für chronische Krankheiten. Beides führt tendenziell zu einer reduzierten körperlichen und geistigen Leistungsfähigkeit.", "duration": 8000},
-                        {"phrase": "Dadurch sinken die Verdienstchancen, das Armutsrisiko steigt, der Kreislauf setzt sich fort. Letztendlich verenden viele Hungernden an einer Krankheit, die sie sich wegen ihrem geschwächtem Immunsystem zugezogen haben.", "duration": 10000}
+                        {"phrase": "Die Folgen sind unschön. Ich wünsche dies keiner Person! Bei mangelnder Ernährung leidet der Körper unter den fehlenden Nährstoffen. ", "duration": 11000},
+                        {"phrase": "Die körperliche und geistige Entwicklung des Menschen ist eingeschränkt. Er kann sich schlechter konzentrieren und erbringt daher schlechtere Leistungen.", "duration": 14000},
+                        {"phrase": "Ausserdem ist ein mangelernährter Mensch auch anfälliger für chronische Krankheiten. Beides führt tendenziell zu einer reduzierten körperlichen und geistigen Leistungsfähigkeit.", "duration": 16000},
+                        {"phrase": "Dadurch sinken die Verdienstchancen und das Armutsrisiko steigt. Letztendlich verenden viele hungernde Menschen an einer Krankheit, die sie sich wegen ihrem geschwächtem Immunsystem zugezogen haben.", "duration": 18000}
                     ]
                 },
                 {
                     "aid": 4, "answer": [
-                        {"phrase": "Natürlich nicht! Dieses mal kamen mir auch keine Lybier dazwischen!", "duration": 6000}
+                        {"phrase": "Natürlich nicht! Dieses Mal kamen mir auch keine Lybier dazwischen!", "duration": 7000}
                     ]
                 }
 
